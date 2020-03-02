@@ -1,7 +1,7 @@
 version: "3"
 services: 
   backend:
-    image: registry.cn-hangzhou.aliyuncs.com/cookie0512/note-springboot
+    image: registry.cn-hangzhou.aliyuncs.com/cookie0512/note-springboot:3.0
     container_name: "backend"
     volumes: 
     - ./my-note/project/:/project/
@@ -18,7 +18,7 @@ services:
     # - 5005:5005
     network_mode: host
   frontend:
-    image: registry.cn-hangzhou.aliyuncs.com/cookie0512/note-vue
+    image: registry.cn-hangzhou.aliyuncs.com/cookie0512/note-vue:2.0
     container_name: vue
     volumes: 
     # - ./vue-project/project/:/project/

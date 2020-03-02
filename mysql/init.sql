@@ -35,7 +35,7 @@ create table user
 );
 
 
-insert into user(id, username, password) values(1, 'cookie', '$2a$10$KHqeA82x2nQM5Nnz4rQeJe5Yf36BQ2nxH92gvQfCl.gyw0B8uCGne')
+insert into user(id, username, password) values(1, 'cookie', '$2a$10$KHqeA82x2nQM5Nnz4rQeJe5Yf36BQ2nxH92gvQfCl.gyw0B8uCGne');
 
-insert into menu(id, parent_id, uesr_id, name) values(1, NULL, NULL, NULL)
+insert into menu(id, parent_id, user_id, name) values(1, NULL, NULL, NULL);
 
